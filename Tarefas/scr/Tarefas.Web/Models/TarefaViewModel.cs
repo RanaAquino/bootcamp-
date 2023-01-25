@@ -3,7 +3,8 @@ namespace Tarefas.Web.Models;
 
 public class TarefaViewModel
 {
-     [DisplayName("Título")]
+    [DisplayName("Título")]
+    public int Id {get; set;}
     public string Titulo {get;set;}
 
     [DisplayName("Descrição")]
